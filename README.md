@@ -1,7 +1,7 @@
-#🌿Plant Disease Detection using CNN
+# 🌿Plant Disease Detection using CNN
 This project uses Convolutional Neural Networks (CNNs) to automatically detect and classify plant diseases from leaf images. By leveraging deep learning and image processing, the model can assist farmers, researchers, and agricultural professionals in identifying diseases early and taking appropriate action.
 
-🔍 #Features
+## 🔍 Features
 : Trained CNN model to classify multiple types of plant diseases
 
 : Preprocessing pipeline for image cleaning and augmentation
@@ -12,34 +12,34 @@ This project uses Convolutional Neural Networks (CNNs) to automatically detect a
 
 : Support for custom datasets and retraining
 
-📁 #Dataset
+## 📁 Dataset
 Uses the PlantVillage dataset (or your chosen dataset) containing labeled leaf images of healthy and diseased plants.
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 : Python
 : TensorFlow / PyTorch
 : OpenCV
 : NumPy / Pandas
 : Matplotlib (for visualization)
 
-🚀 #How to Use
+## 🚀 How to Use
 
-:- Clone the repo
+# :- Clone the repo
 git clone https://github.com/yourusername/plant-disease-cnn.git
 
-:- Install dependencies
+# :- Install dependencies
 pip install -r requirements.txt
 
-:- Train the model
+# :- Train the model
 python train.py
 
-:- Predict disease from a new image
+# :- Predict disease from a new image
 python predict.py --image path_to_image.jpg
 
-📊 #Results
+## 📊 Results
 Achieved over X% accuracy on the validation set, with good generalization to unseen leaf samples.
 
-📌 #Future Work
+## 📌 Future Work
 : Deploy model as a web/mobile app
 
 : Improve accuracy using transfer learning (e.g., ResNet, EfficientNet)
