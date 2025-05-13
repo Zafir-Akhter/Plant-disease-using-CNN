@@ -24,16 +24,16 @@ Uses the PlantVillage dataset (or your chosen dataset) containing labeled leaf i
 
 ## 🚀 How to Use
 
-# :- Clone the repo
+## :- Clone the repo
 git clone https://github.com/yourusername/plant-disease-cnn.git
 
-# :- Install dependencies
+## :- Install dependencies
 pip install -r requirements.txt
 
-# :- Train the model
+## :- Train the model
 python train.py
 
-# :- Predict disease from a new image
+## :- Predict disease from a new image
 python predict.py --image path_to_image.jpg
 
 ## 📊 Results
