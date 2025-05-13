@@ -1,4 +1,4 @@
-🌿 #Plant Disease Detection using CNN
+#🌿Plant Disease Detection using CNN
 This project uses Convolutional Neural Networks (CNNs) to automatically detect and classify plant diseases from leaf images. By leveraging deep learning and image processing, the model can assist farmers, researchers, and agricultural professionals in identifying diseases early and taking appropriate action.
 
 🔍 #Features
