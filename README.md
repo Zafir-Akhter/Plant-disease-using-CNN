@@ -1,37 +1,47 @@
-#🌿 Plant Disease Detection with CNN
-A deep learning project for identifying plant diseases from leaf images using Convolutional Neural Networks (CNNs). This tool helps automate early diagnosis, supporting farmers and agricultural experts with accurate, image-based predictions.
+🌿 #Plant Disease Detection using CNN
+This project uses Convolutional Neural Networks (CNNs) to automatically detect and classify plant diseases from leaf images. By leveraging deep learning and image processing, the model can assist farmers, researchers, and agricultural professionals in identifying diseases early and taking appropriate action.
 
-🚀 Key Features
-CNN-based image classification for multiple plant diseases
+🔍 #Features
+: Trained CNN model to classify multiple types of plant diseases
 
-Trained on the PlantVillage dataset (or custom datasets)
+: Preprocessing pipeline for image cleaning and augmentation
 
-Image preprocessing and augmentation pipeline
+: Evaluation metrics (accuracy, confusion matrix, etc.)
 
-Easy training and inference scripts
+: Easy-to-use inference script for real-time predictions
 
-Evaluation metrics and visualizations included
+: Support for custom datasets and retraining
 
-🛠️ Built With
-Python, TensorFlow/PyTorch
+📁 #Dataset
+Uses the PlantVillage dataset (or your chosen dataset) containing labeled leaf images of healthy and diseased plants.
 
-OpenCV, NumPy, Matplotlib
+🛠️ Tech Stack
+: Python
+: TensorFlow / PyTorch
+: OpenCV
+: NumPy / Pandas
+: Matplotlib (for visualization)
 
-📦 Quick Start
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/plant-disease-cnn.git  
-cd plant-disease-cnn  
-pip install -r requirements.txt  
-python train.py  # To train the model  
-python predict.py --image path_to_image.jpg  # To make predictions
-📈 Accuracy
-Achieves high accuracy on validation data with strong generalization on unseen leaf samples.
+🚀 #How to Use
 
-📌 TODO
-Add mobile/web app interface
+:- Clone the repo
+git clone https://github.com/yourusername/plant-disease-cnn.git
 
-Integrate transfer learning for improved performance
+:- Install dependencies
+pip install -r requirements.txt
 
-Real-time detection via camera feed
+:- Train the model
+python train.py
+
+:- Predict disease from a new image
+python predict.py --image path_to_image.jpg
+
+📊 #Results
+Achieved over X% accuracy on the validation set, with good generalization to unseen leaf samples.
+
+📌 #Future Work
+: Deploy model as a web/mobile app
+
+: Improve accuracy using transfer learning (e.g., ResNet, EfficientNet)
+
+: Real-time detection using a smartphone camera
