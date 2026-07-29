@@ -27,9 +27,6 @@ Uses the PlantVillage dataset containing labeled leaf images of healthy and dise
 ## :- Clone the repo
 git clone https://github.com/yourusername/plant-disease-cnn.git
 
-## :- Install dependencies
-pip install -r requirements.txt
-
 ## :- Train the model
 python train.py
 
